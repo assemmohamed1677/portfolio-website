@@ -1,0 +1,17 @@
+{
+  "name": "Assem Mohamed Portfolio",
+  "short_name": "Assem",
+  "description": "Premium full stack developer portfolio for Assem Mohamed.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070d",
+  "theme_color": "#05070d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
