@@ -1,6 +1,4 @@
-import type { projects } from '../data/portfolio';
-
-type Variant = (typeof projects)[number]['variant'];
+type Variant = 'analytics' | 'kanban' | 'shop' | 'game';
 
 export function ProjectVisual({ variant }: { variant: Variant }) {
   if (variant === 'kanban') {

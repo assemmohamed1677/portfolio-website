@@ -102,43 +102,54 @@ export const services = [
 
 export const projects = [
   {
-    title: 'StudyTrack',
+    title: 'Enterprise Level Task Management',
     description:
-      'A modern student management platform that allows students to organize courses, assignments, deadlines, and progress through an intuitive dashboard.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-    features: ['Authentication', 'Dashboard', 'CRUD', 'Progress Tracking', 'Responsive UI'],
-    variant: 'analytics',
-    liveDemo: 'https://github.com/assemmohamed1677',
-    githubUrl: 'https://github.com/assemmohamed1677/studytrack',
-  },
-  {
-    title: 'Task Management System',
-    description:
-      'A collaborative task management platform supporting teams with role-based authentication, project organization, and task tracking.',
-    tech: ['Angular', 'NestJS', 'MongoDB'],
-    features: ['Authentication', 'Task Boards', 'Project Management', 'Admin Dashboard', 'Role Management'],
+      'An Angular task management app with user-specific task lists, modal task creation, completion flow, and browser persistence.',
+    tech: ['Angular', 'TypeScript', 'CSS', 'LocalStorage'],
+    features: ['User Selection', 'Task CRUD', 'Persistent State', 'Reusable Components', 'Responsive UI'],
     variant: 'kanban',
-    liveDemo: 'https://github.com/assemmohamed1677',
-    githubUrl: 'https://github.com/assemmohamed1677/task-management-system',
+    liveDemo: 'https://enterprise-level-task-managment-akt.vercel.app/',
+    githubUrl: 'https://github.com/assemmohamed1677/enterprise-level-task-managment',
   },
   {
-    title: 'E-Commerce System',
+    title: 'Students Management System',
     description:
-      'A scalable online shopping platform with product catalog, shopping cart, secure authentication, and order management.',
-    tech: ['React', 'Express', 'MongoDB', 'Stripe-ready Architecture'],
-    features: ['Authentication', 'Cart', 'Wishlist', 'Orders', 'Search', 'Filtering', 'Responsive Design'],
-    variant: 'shop',
-    liveDemo: 'https://github.com/assemmohamed1677',
-    githubUrl: 'https://github.com/assemmohamed1677/e-commerce-system',
+      'A student directory dashboard for adding, viewing, deleting, and inspecting student records with Angular routing and shared state.',
+    tech: ['Angular', 'TypeScript', 'Reactive Forms', 'RxJS'],
+    features: ['Student CRUD', 'Details Pages', 'Form Validation', 'Routing', 'Reusable Table'],
+    variant: 'analytics',
+    liveDemo: 'https://students-managment-system-snowy.vercel.app/home',
+    githubUrl: 'https://github.com/assemmohamed1677/students-managment-system',
+  },
+  {
+    title: 'Ticket Management System',
+    description:
+      'A support dashboard with server status, traffic widgets, ticket creation, expandable ticket details, and completion status.',
+    tech: ['Angular', 'TypeScript', 'Forms', 'CSS'],
+    features: ['Dashboard Widgets', 'Ticket Creation', 'Status Tracking', 'Content Projection', 'Reusable Controls'],
+    variant: 'analytics',
+    liveDemo: 'https://ticket-managment-system-alpha.vercel.app/',
+    githubUrl: 'https://github.com/assemmohamed1677/ticket-managment-system',
+  },
+  {
+    title: 'Investment Calculator',
+    description:
+      'An Angular calculator that projects investment growth over time from initial capital, yearly contributions, return rate, and duration.',
+    tech: ['Angular', 'TypeScript', 'Angular Forms', 'Signals'],
+    features: ['Financial Projection', 'Dynamic Results', 'Currency Formatting', 'Shared Service State', 'Input Constraints'],
+    variant: 'analytics',
+    liveDemo: 'https://investment-calculator-eight-orpin.vercel.app/',
+    githubUrl: 'https://github.com/assemmohamed1677/Investment-Calculator',
   },
   {
     title: 'Hangman Game',
-    description: 'A responsive word guessing game with modern animations and score tracking.',
-    tech: ['React', 'TypeScript', 'Tailwind'],
-    features: ['Animations', 'Responsive', 'Dark Theme', 'Score Tracking', 'Difficulty Levels'],
+    description:
+      'A vanilla JavaScript word guessing game with category hints, sound effects, hangman drawing states, and replay flow.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    features: ['DOM Manipulation', 'Random Words', 'Sound Effects', 'Replay Button', 'Responsive Styling'],
     variant: 'game',
-    liveDemo: 'https://github.com/assemmohamed1677',
-    githubUrl: 'https://github.com/assemmohamed1677/hangman-game',
+    liveDemo: 'https://assemmohamed1677.github.io/Hangman/',
+    githubUrl: 'https://github.com/assemmohamed1677/Hangman',
   },
 ] as const;
 
